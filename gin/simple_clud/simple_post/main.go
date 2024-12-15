@@ -14,6 +14,8 @@ func main() {
 
 	router.POST("/users", func(c *gin.Context) {
 		var user User
+
+        // Binding to a struct with json
 		if err := c.ShouldBindJSON(&user); err != nil {
 			c.JSON(400, gin.H{"error": err.Error()})
 			return
