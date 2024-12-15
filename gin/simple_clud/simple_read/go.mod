@@ -1,4 +1,4 @@
-module simple_get
+module simple_read
 
 go 1.23.4
 

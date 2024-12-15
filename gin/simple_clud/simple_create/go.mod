@@ -1,4 +1,4 @@
-module simple_post
+module simple_create
 
 go 1.23.4
 
